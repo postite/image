@@ -248,7 +248,7 @@ class Image {
 	}
 
 	public static function getInfo(path: String): Surprise<ImageInfo, Error> {
-        trace( "getInfo");
+        
 		var trigger = Future.trigger(),
 			width = 0,
 			height = 0,
